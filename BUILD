@@ -1,7 +1,7 @@
 java_binary(
     name = "google_tech_stack",
     srcs = glob(["src/main/googletechstack/**/*.java"]),
-    main_class = "src.main.googletechstack.InitialClaz",
+    main_class = "src.main.googletechstack.DemoApplication",
     resources = glob(["src/main/resources/**"]),
     deps = [
         ":autovalue",
